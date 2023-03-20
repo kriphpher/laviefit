@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .bg-image{
     background: url(../images/banner-end.jpg) center no-repeat;
@@ -10,6 +10,7 @@
 }
 
 .jumbotron p{
+    font-family: sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -21,6 +22,11 @@
 .abt{
     text-decoration: none;
     list-style: none;
+    align-items: center;
+}
+
+.col-md-4{
+    width: 49.333333%;
 }
 
 footer{
