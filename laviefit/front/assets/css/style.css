@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans&display=swap');
+
+.bg-image{
+    background: url(../images/banner-end.jpg) center no-repeat;
+    background-size: cover;
+    position: inherit;
+    width: 100%;
+    height: 800px;
+}
+
+.jumbotron p{
+    justify-content: center;
+    align-items: center;
+}
+
+.tipo{
+    text-align: center;
+}
+
+.abt{
+    text-decoration: none;
+    list-style: none;
+}
+
+footer{
+    background: url(../images/ftr.png) center no-repeat;
+    background-color: #000;
+    background-size: cover;
+    border-top: 10px solid #AA28AC;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    min-height: 392px;
+}
+
+/* menu hover
+.navbar-nav ms-auto{
+    top: 20px;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    text-align: end;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.7s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #AA27AC;
+}
+menu hover */
