@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .bg-image{
     background: url(../images/banner-end.jpg) center no-repeat;
@@ -9,23 +11,18 @@
     height: 800px;
 }
 
-.jumbotron p{
-    justify-content: center;
-    align-items: center;
+.para{
+    padding-left: 50px;
 }
 
-.tipo{
+.title{
     text-align: center;
 }
 
-.abt{
+ul, li{
     text-decoration: none;
     list-style: none;
     align-items: center;
-}
-
-.col-md-4{
-    width: 49.333333%;
 }
 
 footer{
@@ -38,30 +35,3 @@ footer{
     color: #fff;
     min-height: 392px;
 }
-
-/* menu hover
-.navbar-nav ms-auto{
-    top: 20px;
-    font-size: 17px;
-    color: black;
-    text-decoration: none;
-    text-align: end;
-}
-
-.nav__links{
-    list-style: none;
-}
-
-.nav__links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav__links li a{
-    transition: all 0.7s ease 0s;
-}
-
-.nav__links li a:hover{
-    color: #AA27AC;
-}
-menu hover */
