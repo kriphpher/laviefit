@@ -5,7 +5,7 @@
 
 /* header, navbar, hover */
 .bg-image{
-    background: url(../images/banner-end.jpg) center no-repeat;
+    background: url(../images/banner-1.jpg) center no-repeat;
     background-size: cover;
     position: inherit;
     width: 100%;
@@ -17,6 +17,12 @@ header{
     position: absolute;
     width: 100%;
     z-index: 2;
+}
+
+.line1{
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #menu{
@@ -68,10 +74,32 @@ header{
     justify-content: space-between;
     text-decoration: none;
     list-style: none;
+    padding-bottom: 50px;
 }
 /* part1 */
 
-/* part2 *//* part2 */
+/* part2 */
+.part2{
+    background: url(../images/banner-2.jpg) center no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #AA28AC;
+    width: 100%;
+    height: 100%;
+}
+/* part2 */
+
+/* part3 */
+.part3{
+    background: url(../images/back-1.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* part3 */
+
+/* part4 */ /* part4 */
+/* part5 */ /* part5 */
+/* part6 */ /* part6 */
 
 /* footer */
 footer{
