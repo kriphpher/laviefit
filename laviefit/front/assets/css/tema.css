@@ -219,15 +219,15 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color: #FF0000;
+  color: #AA27AC;
 }
 
 ::-moz-selection {
-  background: #FF0000;
+  background: #AA27AC;
 }
 
 ::selection {
-  background: #FF0000;
+  background: #AA27AC;
 }
 
 .pagination .active a,.pagination .active a:hover {
