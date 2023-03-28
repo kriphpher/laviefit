@@ -68,14 +68,12 @@ header{
 }
 
 .list{
-    width: 569px;
-    margin-left: -30px;
+    padding-top: 35px;
     text-decoration: none;
     list-style: none;
     align-items: center;
-    margin-top: -20px;
     font-family: 'ABeeZee';
-    font-weight: bold;
+    font-size: 20px;
 }
 
 .actv{
@@ -85,6 +83,12 @@ header{
     list-style: none;
     padding-bottom: 50px;
     font-family: 'ABeeZee';
+}
+
+.para{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 20px;
 }
 /* part1 */
 
@@ -99,8 +103,14 @@ header{
 
 /* box */
 .box__plan{
+    display: flex;
+    flex-direction: column;
     background-color: #FFF;
     border-bottom: 5px solid #AA28AC;
+}
+
+.col-sm-3{
+    width: 20%;
 }
 /* box */
 /* part2 */
