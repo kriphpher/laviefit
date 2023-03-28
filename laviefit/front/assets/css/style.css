@@ -6,6 +6,7 @@
     font-family: 'ABeeZee';
 }
 
+/* header */
 .bg-image{
     background: url(../images/banner-1.jpg) center no-repeat;
     background-size: cover;
@@ -59,6 +60,12 @@ header{
     line-height: 1;
     margin-bottom: 0px;
 }
+/* header */
+
+/* part1 */
+.part1{
+    background-color: #FFF;
+}
 
 .list{
     width: 569px;
@@ -79,7 +86,9 @@ header{
     padding-bottom: 50px;
     font-family: 'ABeeZee';
 }
+/* part1 */
 
+/* part2 */
 .part2{
     background: url(../images/banner-2.jpg) center no-repeat;
     background-size: cover;
@@ -88,6 +97,15 @@ header{
     height: 100%;
 }
 
+/* box */
+.box__plan{
+    background-color: #FFF;
+    border-bottom: 5px solid #AA28AC;
+}
+/* box */
+/* part2 */
+
+/* part3 */
 .part3{
     background: url(../images/back-1.jpg) center no-repeat;
     background-size: cover;
@@ -96,8 +114,12 @@ header{
 }
 
 .atnd{
-    margin: 0 0 10px;
+    margin: 30px 0px 30px;
     font-size: 22px;
+}
+
+::marker{
+    color: #AA27AC;
 }
 
 .mr{
@@ -107,7 +129,9 @@ header{
 .wm1{
     margin-top: -180px;
 }
+/* part3 */
 
+/* part4 */
 .part4{
     background: url(../images/banner-3.png) center no-repeat;
     background-size: cover;
@@ -123,7 +147,9 @@ header{
     margin: 10px;
     color: #FFF;
 }
+/* part4 */
 
+/* footer */
 footer{
     background: url(../images/ftr.png) center no-repeat;
     background-color: #000;
@@ -134,6 +160,7 @@ footer{
     color: #fff;
     min-height: 392px;
 }
+/* footer */
 
 /*
 @media screen and (max-width: 1920px) {
