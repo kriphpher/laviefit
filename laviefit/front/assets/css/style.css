@@ -98,6 +98,7 @@ header{
     background-size: cover;
     border-bottom: 10px solid #AA28AC;
     width: 100%;
+    min-height: 574px;
 }
 
 /* box */
@@ -106,6 +107,12 @@ header{
     flex-direction: column;
     background-color: #FFF;
     border-bottom: 5px solid #AA28AC;
+}
+
+strong {
+    font-size: 42px;
+    font-family: 'ABeeZee';
+    font-weight: bolder;
 }
 /* box */
 /* part2 */
