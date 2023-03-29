@@ -109,10 +109,33 @@ header{
     border-bottom: 5px solid #AA28AC;
 }
 
-strong {
+.box__plan p{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+strong{
     font-size: 42px;
-    font-family: 'ABeeZee';
     font-weight: bolder;
+}
+
+.prc{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0px;
+    font-weight: bolder;
+    position: relative;
+    color: #AA27AC;
+}
+
+.zero{
+    position: absolute;
+    top: 0px;
+    font-size: 30px;
 }
 /* box */
 /* part2 */
