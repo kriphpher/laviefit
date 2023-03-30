@@ -55,6 +55,7 @@ header{
 
 .cont{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 15px;
     line-height: 1;
@@ -73,7 +74,7 @@ header{
     list-style: none;
     align-items: center;
     font-family: 'ABeeZee';
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .actv{
@@ -175,7 +176,7 @@ strong{
     background: url(../images/banner-3.png) center no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    min-height: 574px;
 }
 
 .btn1{
@@ -186,7 +187,17 @@ strong{
     margin: 10px;
     color: #FFF;
 }
+
+.evnt, .cnf{
+    color: #fff;
+}
 /* part4 */
+
+/* part5 */
+.part5{
+    background-color: #F5F5F5;
+}
+/* part5 */
 
 /* footer */
 footer{
