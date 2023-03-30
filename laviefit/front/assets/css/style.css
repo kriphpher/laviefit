@@ -253,6 +253,11 @@ strong{
     font-size: 42px; 
     font-style: italic;
 }
+
+.gale{
+    display: flex;
+    justify-content: space-between;
+}
 /* part5 */
 
 /* part6 */
