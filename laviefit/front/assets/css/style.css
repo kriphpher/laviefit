@@ -180,12 +180,12 @@ strong{
 }
 
 .btn1{
+    padding-top: 10px;
     background: #AA27AC;
     padding: 20px 40px;
     cursor: pointer;
     transition: all .2s linear;
     margin: 10px;
-    color: #FFF;
 }
 
 .evnt, .cnf{
@@ -196,6 +196,14 @@ strong{
 /* part5 */
 .part5{
     background-color: #F5F5F5;
+}
+
+.pt1{
+    padding-top: 120px;
+}
+
+.pt2{
+    padding-top: 70px;
 }
 /* part5 */
 
