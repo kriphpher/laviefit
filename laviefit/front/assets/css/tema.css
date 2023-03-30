@@ -215,7 +215,7 @@ a {
 }
 
 a:link, a:visited { 
-  color: #FFF;
+  color: inherit;
 }
 
 a:hover, a:active {

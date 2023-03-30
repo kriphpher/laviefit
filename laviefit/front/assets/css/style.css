@@ -186,16 +186,11 @@ strong{
     cursor: pointer;
     transition: all .2s linear;
     margin: 10px;
+    color: #FFF;
 }
 
 .evnt, .cnf{
     color: #fff;
-}
-/* part4 */
-
-/* part5 */
-.part5{
-    background-color: #F5F5F5;
 }
 
 .pt1{
@@ -204,6 +199,20 @@ strong{
 
 .pt2{
     padding-top: 70px;
+}
+
+.cnf{
+    font-size: 27px;
+}
+
+.evnt{
+    font-size: 17px;
+}
+/* part4 */
+
+/* part5 */
+.part5{
+    background-color: #F5F5F5;
 }
 /* part5 */
 
