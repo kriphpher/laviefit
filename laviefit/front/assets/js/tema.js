@@ -150,25 +150,6 @@ $(document).ready(function(){
 
 });
 
-
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 15,
-    nav: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 3
-        }
-    }
-})
-
-
 $('.postagemcompleta a').each(function(index, el) {
     $(this).attr('target', '_blank');
 });
@@ -190,3 +171,24 @@ if(n<1){
         act.style.display = 'block';
     }
 }
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 15,
+    nav: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        }
+    }
+})
+
+// alert("I did my best")
+// alert("I've learned a lot, and also improved some skills")
+// alert("Hope u guys Like it")
