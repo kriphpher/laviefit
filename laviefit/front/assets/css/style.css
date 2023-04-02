@@ -256,19 +256,6 @@ strong{
     display: flex;
     justify-content: space-between;
 }
-
-.owl-carousel .owl-nav{
-    color: #000;
-
-}
-
-.owl-next{
-    padding-right: 0 !important;
-}
-
-.owl-prev{
-    padding-left: 0% !important;
-}
 /* part5 */
 
 /* part6 */

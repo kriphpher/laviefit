@@ -179,8 +179,8 @@ $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
     dots: false,
-    nav: true,
-    navText: ["<",">"],
+    nav: false,
+    // navText: ["<",">"],
     responsive: {
         0: {
             items: 1
