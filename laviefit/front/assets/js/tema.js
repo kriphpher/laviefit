@@ -173,7 +173,6 @@ if(n<1){
 }
 
 $('.owl-carousel').owlCarousel({
-    // option: value,
     merge: true,
     autoplay: true,
     rewind: false,
