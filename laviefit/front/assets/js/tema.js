@@ -173,9 +173,15 @@ if(n<1){
 }
 
 $('.owl-carousel').owlCarousel({
+    // option: value,
+    merge: true,
+    autoplay: true,
+    rewind: false,
     loop: true,
-    margin: 15,
+    margin: 10,
+    dots: false,
     nav: true,
+    navText: ["<",">"],
     responsive: {
         0: {
             items: 1
