@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -116,6 +115,19 @@ header{
     flex-direction: column;
     background-color: #FFF;
     border-bottom: 5px solid #AA28AC;
+    height: 210px;
+}
+
+.line15{
+    border-top: 1px solid #000;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 140px;
+}
+
+.numbers{
+    padding-top: 20px;
 }
 
 .box__plan p{
@@ -135,6 +147,8 @@ header{
 .h4p2{
     font-size: 28px;
     font-style: italic;
+    padding-top: 20px;
+    margin-bottom: -10px;
 }
 
 strong{
@@ -156,6 +170,28 @@ strong{
     position: absolute;
     top: 0px;
     font-size: 30px;
+}
+
+/*.btn15{
+    background: #AA27AC;
+    cursor: pointer;
+    transition: all .2s linear;
+}*/
+
+.btn15 a{
+    background-color: #AA28AC;
+    display: block;
+    width: 140px;
+    line-height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+    transition: all .2s linear;
+    margin-top: -25px;
+}
+
+.buyn{
+    padding-top: 10px;
 }
 /* box */
 /* part2 */
@@ -246,7 +282,7 @@ strong{
 /* part5 */
 .part5{
     background-color: #F5F5F5;
-    min-height: 500px;
+    min-height: 510px;
 }
 
 .h2p5{
@@ -291,6 +327,41 @@ footer{
     color: #fff;
     min-height: 371px;
 }
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.contc{
+    display: flex;
+    padding: 20vh 0 5px;
+}
+
+.loc{
+    padding-top: 10px;
+}
+
+.socials{
+    display: flex;
+    padding: 5px 5px;
+}
+
+.socials-end{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+.footer2{
+    margin-top: -30px;
+}
+/*.model{
+    display: flex;
+    position: absolute;
+    padding-bottom: 10px;
+}*/
 /* footer */
 
 /*

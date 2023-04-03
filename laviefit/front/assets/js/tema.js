@@ -3,7 +3,7 @@ $('.owl-carousel').owlCarousel({
     autoplay: true,
     rewind: false,
     loop: true,
-    margin: 10,
+    margin: 5,
     dots: false,
     nav: false,
     animateOut: 'fadeOut',
@@ -22,16 +22,7 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-// $('.comments').owlCarousel({
-//     animateOut: 'fadeOut',
-//     margin:30,
-//     stagePadding:30,
-//     smartSpeed:450
-//     loop: true,
-//     nav: false,
-//     dots: false,
-// });
-
 // alert("I did my best")
+// alert("Sorry for take so much to finish this")
 // alert("I've learned a lot, and also improved some skills")
 // alert("Hope u guys Like it")
