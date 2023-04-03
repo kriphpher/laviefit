@@ -23,6 +23,4 @@ $('.owl-carousel').owlCarousel({
 })
 
 alert("I did my best")
-alert("Sorry for take so much to finish this")
-alert("I've learned a lot, and also improved some skills")
 alert("Hope u guys Like it")
