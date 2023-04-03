@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 *{
+    padding: 0;
+    margin: 0;
     font-family: 'ABeeZee';
 }
 
@@ -244,6 +246,7 @@ strong{
 /* part5 */
 .part5{
     background-color: #F5F5F5;
+    min-height: 500px;
 }
 
 .h2p5{
@@ -256,25 +259,37 @@ strong{
     display: flex;
     justify-content: space-between;
 }
+
+.owl-carousel .owl-item img{
+    border-bottom: 5px solid #AA26AC;
+}
 /* part5 */
 
 /* part6 */
+.part6{
+    min-height: 500px;
+}
+
+.carousel, .pp6{
+    padding-top: 30px;
+}
+
 .h2p6{
-    color: #AA27AC;
+    padding-top: 30px;
+    color: #AA26AC;
     font-size: 33px; 
     font-style: italic;
 }
 
 /* footer */
 footer{
-    background: url(../imgs/ftr.png) center no-repeat;
-    background-color: #000;
-    background-size: cover;
+    display: flex;
+    background: url(../imgs/ftr.jpg) center no-repeat;
     border-top: 10px solid #AA28AC;
+    background-size: cover;
     width: 100%;
-    height: 100%;
     color: #fff;
-    min-height: 392px;
+    min-height: 371px;
 }
 /* footer */
 
