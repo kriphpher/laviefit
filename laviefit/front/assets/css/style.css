@@ -52,9 +52,6 @@
         line-height: 1;
         margin-bottom: 0px;
     }
-    /* header */
-
-    /* part1 */
     .part1{
         background-color: #FFF;
     }
@@ -83,9 +80,6 @@
         padding-bottom: 60px;
         font-size: 20px;
     }
-    /* part1 */
-
-    /* part2 */
     .part2{
         background: url(../imgs/banner-2.jpg) center no-repeat;
         background-size: cover;
@@ -96,7 +90,6 @@
     .pla{
         padding-top: 70px;
     }
-    /* box */
     .box__plan{
         display: flex;
         flex-direction: column;
@@ -164,10 +157,6 @@
     .buyn{
         padding-top: 10px;
     }
-    /* box */
-    /* part2 */
-
-    /* part3 */
     .part3{
         background: url(../imgs/back-1.jpg) center no-repeat;
         background-size: cover;
@@ -193,9 +182,6 @@
     .wm1{
         margin-top: -240px;
     }
-    /* part3 */
-
-    /* part4 */
     .part4{
         background: url(../imgs/banner-3.png) center no-repeat;
         background-size: cover;
@@ -236,9 +222,6 @@
         margin-left: 180px;
         padding-top: 15px;
     }
-    /* part4 */
-
-    /* part5 */
     .part5{
         background-color: #F5F5F5;
         min-height: 510px;
@@ -252,9 +235,6 @@
         display: flex;
         justify-content: space-between;
     }
-    /* part5 */
-
-    /* part6 */
     .part6{
         min-height: 500px;
     }
@@ -270,9 +250,6 @@
     .owl-carousel, .owl-item{
         width: 1200px;
     }
-    /* part6 */
-
-    /* footer */
     footer{
         display: flex;
         background: url(../imgs/ftr.jpg) center no-repeat;
@@ -309,7 +286,6 @@
     .treze{
         margin: -20vh 0 0px;
     }
-    /* footer */
 }
 
 @media screen and (max-width: 1024px) {
@@ -359,9 +335,6 @@
         line-height: 1;
         margin-bottom: 0px;
     }
-    /* header */
-
-    /* part1 */
     .part1{
         background-color: #FFF;
     }
@@ -390,9 +363,6 @@
         padding-bottom: 60px;
         font-size: 20px;
     }
-    /* part1 */
-
-    /* part2 */
     .part2{
         background: url(../imgs/banner-2.jpg) center no-repeat;
         border-bottom: 10px solid #AA28AC;
@@ -402,7 +372,6 @@
     .pla{
         padding-top: 70px;
     }
-    /* box */
     .box__plan{
         display: flex;
         flex-direction: column;
@@ -470,10 +439,6 @@
     .buyn{
         padding-top: 10px;
     }
-    /* box */
-    /* part2 */
-
-    /* part3 */
     .part3{
         background: url(../imgs/back-1.jpg) center no-repeat;
         width: 100%;
@@ -498,9 +463,6 @@
     .wm1{
         margin-top: -240px;
     }
-    /* part3 */
-
-    /* part4 */
     .part4{
         background: url(../imgs/banner-3.png) center no-repeat;
         width: 100%;
@@ -540,9 +502,6 @@
         margin-left: 180px;
         padding-top: 15px;
     }
-    /* part4 */
-
-    /* part5 */
     .part5{
         background-color: #F5F5F5;
         min-height: 510px;
@@ -556,9 +515,6 @@
         display: flex;
         justify-content: space-between;
     }
-    /* part5 */
-
-    /* part6 */
     .part6{
         min-height: 500px;
     }
@@ -574,9 +530,6 @@
     .owl-carousel, .owl-item{
         width: 1200px;
     }
-    /* part6 */
-
-    /* footer */
     footer{
         display: flex;
         background: url(../imgs/ftr.jpg) center no-repeat;
@@ -613,7 +566,6 @@
     .treze{
         margin: -20vh 0 0px;
     }
-    /* footer */
 }
 
 @media screen and (max-width: 991px) {
@@ -663,9 +615,6 @@
         line-height: 1;
         margin-bottom: 0px;
     }
-    /* header */
-
-    /* part1 */
     .part1{
         background-color: #FFF;
     }
@@ -694,9 +643,6 @@
         padding-bottom: 60px;
         font-size: 20px;
     }
-    /* part1 */
-
-    /* part2 */
     .part2{
         background: url(../imgs/banner-2.jpg) center no-repeat;
         border-bottom: 10px solid #AA28AC;
@@ -706,7 +652,6 @@
     .pla{
         padding-top: 70px;
     }
-    /* box */
     .box__plan{
         display: flex;
         flex-direction: column;
@@ -774,10 +719,6 @@
     .buyn{
         padding-top: 10px;
     }
-    /* box */
-    /* part2 */
-
-    /* part3 */
     .part3{
         background: url(../imgs/back-1.jpg) center no-repeat;
         width: 100%;
@@ -802,9 +743,6 @@
     .wm1{
         margin-top: -240px;
     }
-    /* part3 */
-
-    /* part4 */
     .part4{
         background: url(../imgs/banner-3.png) center no-repeat;
         width: 100%;
@@ -844,9 +782,6 @@
         margin-left: 180px;
         padding-top: 15px;
     }
-    /* part4 */
-
-    /* part5 */
     .part5{
         background-color: #F5F5F5;
         min-height: 510px;
@@ -860,9 +795,6 @@
         display: flex;
         justify-content: space-between;
     }
-    /* part5 */
-
-    /* part6 */
     .part6{
         min-height: 500px;
     }
@@ -878,9 +810,6 @@
     .owl-carousel, .owl-item{
         width: 1200px;
     }
-    /* part6 */
-
-    /* footer */
     footer{
         display: flex;
         background: url(../imgs/ftr.jpg) center no-repeat;
@@ -917,5 +846,4 @@
     .treze{
         margin: -20vh 0 0px;
     }
-    /* footer */
 }

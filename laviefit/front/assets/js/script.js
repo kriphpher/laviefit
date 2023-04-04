@@ -3,7 +3,7 @@ $('.owl-carousel').owlCarousel({
     autoplay: true,
     rewind: false,
     loop: true,
-    margin: 5,
+    margin: 10,
     dots: false,
     nav: false,
     animateOut: 'fadeOut',
@@ -22,5 +22,5 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-// alert("I did my best")
-// alert("Hope u guys Like it")
+alert("I did my best, sorry for take it so long")
+alert("Hope u guys Like it")
