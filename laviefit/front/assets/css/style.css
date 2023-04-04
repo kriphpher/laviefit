@@ -295,10 +295,6 @@ strong{
     display: flex;
     justify-content: space-between;
 }
-
-.owl-carousel .owl-item img{
-    border-bottom: 5px solid #AA26AC;
-}
 /* part5 */
 
 /* part6 */
@@ -315,6 +311,10 @@ strong{
     color: #AA26AC;
     font-size: 33px; 
     font-style: italic;
+}
+ 
+.owl-carousel, .owl-item{
+    width: 1200px;
 }
 
 /* footer */

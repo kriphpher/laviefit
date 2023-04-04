@@ -22,5 +22,5 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-alert("I did my best")
-alert("Hope u guys Like it")
+// alert("I did my best")
+// alert("Hope u guys Like it")
