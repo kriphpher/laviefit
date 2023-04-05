@@ -330,7 +330,7 @@ footer{
 .gitkr:hover::before {
     transform-origin: left;
     transform: scaleX(1);
-  }
+}
 .KRgit{
     margin-top: 5px;
 }
