@@ -1,25 +1,16 @@
-$('.owl-carousel').owlCarousel({
-    merge: true,
-    autoplay: true,
-    rewind: false,
-    loop: true,
-    margin: 10,
-    dots: false,
-    nav: false,
-    animateOut: 'fadeOut',
-    animateIn: 'flipInX',
-    navText: ["<",">"],
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 3
-        }
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    const menuLinks = document.querySelectorAll('nav ul li a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        });
+    });
 })
 
 // alert("I did my best, sorry for take it so long")

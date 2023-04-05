@@ -8,13 +8,14 @@
     <link rel="shortcut icon" href="assets/img/KЯ13.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/kryztyles.css">
-    <link rel="stylesheet" href="assets/owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/owl/css/owl.carousel.css">
     <link rel="stylesheet" href="assets/owl/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Lavie Fit</title>
 </head>
 <body class="pg-home">
-    <header class="header">
+    <header class="header" id="Home">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -34,12 +35,11 @@
                         <div class="col-md-12">
                             <div id="menu">
                                 <ul class="nav__links">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Sobre</a></li>
-                                    <li><a href="#">Equipe</a></li>
-                                    <li><a href="#">Atividades</a></li>
-                                    <li><a href="#">Planos</a></li>
-                                    <li><a href="#">Contato</a></li>
+                                    <li><a href="#Sobre">Sobre</a></li>
+                                    <li><a href="#Planos">Planos</a></li>
+                                    <li><a href="#Atividades">Atividades</a></li>
+                                    <li><a href="#Equipe">Equipe</a></li>
+                                    <li><a href="#Contato">Contato</a></li>
                                 </ul>
                                 <hr class="line1">
                             </div>
@@ -50,7 +50,7 @@
         </div>
     </header>
 
-    <section class="part1">
+    <section class="part1" id="Sobre">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -104,7 +104,7 @@
         </div>
     </section>
 
-    <section class="part2">
+    <section class="part2" id="Planos">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -183,7 +183,7 @@
         </div>
     </section>
 
-    <section class="part3">
+    <section class="part3" id="Atividades">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -207,7 +207,7 @@
         </div>
     </section>
 
-    <section class="part4">
+    <section class="part4" id="Equipe">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -264,7 +264,7 @@
                         <h2 class="h2p6">Veja o que nossos clientes estão dizendo</h2>
                     </div>
                     <div class="col-lg-12">
-                        <div class="owl-animated-out fadeOut">
+                        <div class="has-feedback">
                             <div class="item">
                                 <div class="col-md-2">
                                     <img src="assets/imgs/chespirito.png" alt="person">
@@ -273,6 +273,7 @@
                                     <div class="pp6">
                                         <p class="pp6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis faucibus lacus, vel volutpat enim molestie vel. Mauris ullamcorper ipsum tortor, vel accumsan nibh scelerisque eu. Praesent id nisl nec erat pulvinar accumsan sed quis odio. Nullam placerat magna purus, at cursus libero aliquet at.
                                         Maecenas mollis aliquet elit eget lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat ex augue, sit amet laoreet odio eleifend ut.<br>
+                                        <br>
                                         <b>E agora o pai ta Blindão ta?</b></p>
                                         <hr class="line1">
                                         <img src="assets/imgs/asp.jpg" alt="aspas"> Chespirito Muito Loco
@@ -286,7 +287,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="Contato">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -299,7 +300,7 @@
                                 <img src="assets/imgs/zap2.png" alt="wpp"> 14 3324.5204  |  14 99664.5204
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-5">
                             <div class="email">
                                 <img src="assets/imgs/contato.png" alt="cont"> contato@laviefit.com.br
                             </div>
@@ -311,10 +312,10 @@
                         <img src="assets/imgs/loc.png" alt="loc"> Av. Luis Saldanha Rodrigues, 1317. - Jd Paulista - Ourinhos/SP - CEP 19907-510
                     </div>
                 </div>
-                <div class="socials-end">
-                    <div class="col-md-2 col-xl-offset-2">
+                <div class="col-md-2 col-xl-offset-2">
+                    <div class="socials-end">
                         <div class="lavie">
-                            <a href="#"><img src="assets/imgs/logo-mini.png" alt="logo-end"></a>
+                            <a href="#Home"><img src="assets/imgs/logo-mini.png" alt="logo-end"></a>
                         </div>
                         <div class="socials">
                             <a href="#" target="_blank"><img src="assets/imgs/wt-face.png" alt="facebook"></a>
@@ -324,23 +325,46 @@
                 </div>
             </div>
         </div>
-    <!--<div class="footer2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-3 col-md-6 col-lg-offset-3">
-                        <p class="treze">&copy; KЯ13 No Rights Reserveds at all</p>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </footer>
     
     <div class="img">
         <a href="https://api.whatsapp.com/send/?phone=5514996313414&text&type=phone_number&app_absent=0" class="btnwhats" target="_blank"><img src="assets/img/whatsapp.png"/></a>
     </div>
 
-    <script src="assets/js/kryzcripts.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/kryzcripts.js"></script>
     <script src="assets/owl/js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            merge: false,
+            autoplay: true,
+            rewind: true,
+            loop: true,
+            margin: 5,
+            dots: false,
+            nav: false,
+            navText: ["<",">"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+
+        $('.owl-feedback').owlCarousel({
+            animateOut: 'slideOutDown',
+            animateIn: 'flipInX',
+            items:1,
+            margin:30,
+            stagePadding:30,
+            smartSpeed:450
+        })
+    </script>
 </body>
 </html>

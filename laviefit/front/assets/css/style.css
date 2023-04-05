@@ -1,5 +1,4 @@
 /* OBS: não me pergunte como tudo esta funcionando, mas se quiser mesmo uma resposta, a melhor de todas é que eu tenho TOC */
-
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 *{
     padding: 0;
@@ -58,7 +57,7 @@ header{
 }
 .nav__links li{
     display: inline-block;
-    padding: 0px 15px;
+    padding: 0px 25px;
 }
 .nav__links li a{
     color: #000;
@@ -66,7 +65,9 @@ header{
     text-decoration: underline #FE26FE;
 }
 .nav__links li a:hover{
-    color: #AA27AC;
+    color: #FE26FE;
+    transition: all 0.2s linear;
+    text-decoration: underline #FE26FE;
     filter: brightness(1.2);
 }
 .cont{
@@ -271,6 +272,9 @@ strong{
 .part6{
     min-height: 500px;
 }
+.owl-carousel, .owl-item{
+    width: 1200px;
+}
 .carousel, .pp6{
     padding-top: 30px;
 }
@@ -280,9 +284,6 @@ strong{
     font-size: 33px; 
     font-style: italic;
 }
-.owl-carousel, .owl-item{
-    width: 1200px;
-}
 footer{
     background: url(../imgs/ftr.jpg) center no-repeat;
     border-top: 10px solid #AA28AC;
@@ -291,7 +292,9 @@ footer{
     height: 371px;
 }
 .contc{
-    margin-left: 10px;
+    padding-top: 100px;
+    margin-left: -15px;
+    margin-bottom: 30px;
 }
 .loc{
     padding-top: '';
@@ -320,6 +323,35 @@ footer{
 }
 
 @media screen and (max-width: 1024px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'ABeeZee';
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'ABeeZee';
+    }
+    ::selection{
+        background: #AA27AC;
+    }
+    ::-moz-selection{
+        background: #AA27AC;
+    }
+    ::marker{
+        color: #AA27AC;
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+    /* html config */
     header{
         padding-top: 27px;
         position: absolute;
@@ -348,7 +380,7 @@ footer{
     }
     .nav__links li{
         display: inline-block;
-        padding: 0px 15px;
+        padding: 0px 25px;
     }
     .nav__links li a{
         color: #000;
@@ -356,7 +388,9 @@ footer{
         text-decoration: underline #FE26FE;
     }
     .nav__links li a:hover{
-        color: #AA27AC;
+        color: #FE26FE;
+        transition: all 0.2s linear;
+        text-decoration: underline #FE26FE;
         filter: brightness(1.2);
     }
     .cont{
@@ -561,6 +595,9 @@ footer{
     .part6{
         min-height: 500px;
     }
+    .owl-carousel, .owl-item{
+        width: 1200px;
+    }
     .carousel, .pp6{
         padding-top: 30px;
     }
@@ -570,9 +607,6 @@ footer{
         font-size: 33px; 
         font-style: italic;
     }
-    .owl-carousel, .owl-item{
-        width: 1200px;
-    }
     footer{
         background: url(../imgs/ftr.jpg) center no-repeat;
         border-top: 10px solid #AA28AC;
@@ -581,7 +615,9 @@ footer{
         height: 371px;
     }
     .contc{
-        margin-left: 10px;
+        padding-top: 100px;
+        margin-left: -15px;
+        margin-bottom: 30px;
     }
     .loc{
         padding-top: '';
@@ -611,6 +647,35 @@ footer{
 }
 
 @media screen and (max-width: 991px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'ABeeZee';
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'ABeeZee';
+    }
+    ::selection{
+        background: #AA27AC;
+    }
+    ::-moz-selection{
+        background: #AA27AC;
+    }
+    ::marker{
+        color: #AA27AC;
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+    /* html config */
     header{
         padding-top: 27px;
         position: absolute;
@@ -639,7 +704,7 @@ footer{
     }
     .nav__links li{
         display: inline-block;
-        padding: 0px 15px;
+        padding: 0px 25px;
     }
     .nav__links li a{
         color: #000;
@@ -647,7 +712,9 @@ footer{
         text-decoration: underline #FE26FE;
     }
     .nav__links li a:hover{
-        color: #AA27AC;
+        color: #FE26FE;
+        transition: all 0.2s linear;
+        text-decoration: underline #FE26FE;
         filter: brightness(1.2);
     }
     .cont{
@@ -852,6 +919,9 @@ footer{
     .part6{
         min-height: 500px;
     }
+    .owl-carousel, .owl-item{
+        width: 1200px;
+    }
     .carousel, .pp6{
         padding-top: 30px;
     }
@@ -861,9 +931,6 @@ footer{
         font-size: 33px; 
         font-style: italic;
     }
-    .owl-carousel, .owl-item{
-        width: 1200px;
-    }
     footer{
         background: url(../imgs/ftr.jpg) center no-repeat;
         border-top: 10px solid #AA28AC;
@@ -872,7 +939,9 @@ footer{
         height: 371px;
     }
     .contc{
-        margin-left: 10px;
+        padding-top: 100px;
+        margin-left: -15px;
+        margin-bottom: 30px;
     }
     .loc{
         padding-top: '';
