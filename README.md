@@ -1,10 +1,13 @@
-# laviefit
+# laviefit frontpage website
+
 <tl>
 <Ul>
-<li>Functional Nav bar links (Jumps)</li>
-<li>Cool Styles for "a"</li>
-<li>Responsive</li>
+<li>Functional Navbar (CSS and Js)</li>
+<li>Cool Styles (CSS)</li>
+<li>Responsive (CSS)</li>
+<li>Owl Carousel (Js)</li>
 </ul>
 </tl>
+
+
 ## ***Feel free to give me some advices or something like this***
- 
