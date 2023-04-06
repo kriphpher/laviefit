@@ -216,7 +216,7 @@ strong{
     background: #AA27AC;
     padding: 20px 40px;
     cursor: pointer;
-    margin: 10px;
+    /*margin: 10px;*/
     transition: all .2s linear;
 }
 .btn1:hover{
@@ -351,7 +351,7 @@ footer{
         font-family: 'ABeeZee';
     }
     .pg-home{
-        max-width: 1920px;
+        max-width: 1024px;
         margin-right: auto;
         margin-left: auto;
         font-family: 'ABeeZee';
@@ -374,6 +374,7 @@ footer{
         filter: brightness(1.1);
     }
     /* html config */
+
     header{
         padding-top: 27px;
         position: absolute;
@@ -402,7 +403,7 @@ footer{
     }
     .nav__links li{
         display: inline-block;
-        padding: 0px 25px;
+        padding: 0px 10px;
     }
     .nav__links li a{
         color: #000;
@@ -419,7 +420,7 @@ footer{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        font-size: 15px;
+        font-size: 12px;
         line-height: 1;
         margin-bottom: 0px;
     }
@@ -457,6 +458,7 @@ footer{
     }
     .pla{
         padding-top: 70px;
+        margin-left: -18px;
     }
     .box__plan{
         display: flex;
@@ -464,12 +466,13 @@ footer{
         background-color: #FFF;
         border-bottom: 5px solid #AA28AC;
         height: 210px;
+        width: 180px;
     }
     .line15{
         border-top: 1px solid #000;
         margin-top: 5px;
         margin-bottom: 30px;
-        margin-left: 30px;
+        margin-left: 20px;
         width: 140px;
     }
     .numbers{
@@ -486,6 +489,10 @@ footer{
         color: #AA26AC; 
         font-size: 42px; 
         font-style: italic;
+        margin-left: 10px;
+    }
+    .pp2{
+        margin-left: 10px;
     }
     .h4p2{
         font-size: 28px;
@@ -517,8 +524,7 @@ footer{
         display: block;
         width: 140px;
         line-height: 45px;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: -2px;
         margin-top: -25px;
         transition: all .2s linear;
     }
@@ -538,18 +544,19 @@ footer{
     .h2p3{
         padding-top: 60px;
         color: #AA26AC; 
-        font-size: 42px; 
+        font-size: 40px; 
         font-style: italic;
     }
     .atnd{
         margin: 30px 0px 30px;
-        font-size: 22px;
+        font-size: 20px;
     }
     .mr{
-        font-size: 22px;
+        font-size: 20px;
     }
     .wm1{
         margin-top: -240px;
+        width: 330px;
     }
     .part4{
         background: url(../imgs/banner-3.png) center no-repeat;
@@ -571,15 +578,19 @@ footer{
     .evnt, .cnf{
         color: #fff;
     }
+    .evnt{
+        margin-bottom: 70px;
+        margin-top: -60px;
+    }
     .saaa{
-        padding-top: 120px;
+        padding-top: 165px;
     }
     .wdwo{
-        padding-top: 70px;
+        padding-top: 120px;
     }
     .cnf{
-        padding-top: 120px;
-        font-size: 27px;
+        padding-top: 83px;
+        font-size: 22px;
     }
     .evnt{
         font-size: 17px;
@@ -589,9 +600,9 @@ footer{
     }
     .h2p4{
         color: #FE26FE; 
-        font-size: 49px; 
+        font-size: 33px; 
         font-style: italic; 
-        margin-left: 180px;
+        margin-left: 163px;
         padding-top: 15px;
     }
     .part5{
@@ -626,23 +637,37 @@ footer{
     .h2p6{
         padding-top: 30px;
         color: #AA26AC;
-        font-size: 33px; 
+        font-size: 30px; 
         font-style: italic;
+    }
+    .has-feedback{
+        display: flex;
+        width: 770px;
+    }
+    .chespirito{
+        width: webkit-fill-available;
+    }
+    .pp6{
+        margin-left: 90px;
+        font-size: 15px;
     }
     footer{
         background: url(../imgs/ftr.jpg) center no-repeat;
         border-top: 10px solid #AA28AC;
         width: 100%;
         color: #fff;
-        height: 371px;
+        height: 282px;
     }
     .contc{
-        padding-top: 100px;
-        margin-left: -15px;
+        padding-top: 50px;
+        margin-left: 17px;
         margin-bottom: 30px;
+        font-size: 11px;
     }
     .loc{
-        padding-top: '';
+        margin-left: 32px;
+        margin-bottom: 30px;
+        font-size: 12px;
     }
     .socials{
         padding: 5px 5px;
@@ -653,15 +678,28 @@ footer{
     .model{
         position: absolute;
         margin-top: -88px;
+        width: -webkit-fill-available;
     }
-    .line{
-        width: 10px;
+    .line-end{
+        width: 710px;
+        margin-left: 310px;
     }
     .footer2{
-        margin-top: -30px;
+        width: 100%;
+        color: #777777;
+        margin-top: -100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
-    .treze{
-        margin: -20vh 0 0px;
+    .KRgit{
+        content-visibility: hidden;
+    }
+    .kryzalis{
+        width: 830px;
+    }
+    .kryzaimg{
+        padding-left: 10px;
     }
     .btnwhats{
         position: fixed;
