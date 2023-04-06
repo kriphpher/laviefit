@@ -756,48 +756,22 @@ footer{
         width: 100%;
         z-index: 2;
     }
+    .logo{
+        margin-left: 40px;
+    }
     .header{
-        background: url(../imgs/banner-1.jpg) center no-repeat;
-        position: inherit;
-        width: 100%;
-        height: 604px;
+        background: url(../imgs/banner-mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 184px;
     }
     .line1{
         border-top: 1px solid #000;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    #menu{
-        font-size: 18px;
-        padding-top: 20px;
-        text-decoration: none;
-        text-align: end;
-    }
-    .nav__links{
-        list-style: none;
-    }
-    .nav__links li{
-        display: inline-block;
-        padding: 0px 10px;
-    }
-    .nav__links li a{
-        color: #000;
-        transition: all 0.2s linear;
-        text-decoration: underline #FE26FE;
-    }
-    .nav__links li a:hover{
-        color: #FE26FE;
-        transition: all 0.2s linear;
-        text-decoration: underline #FE26FE;
-        filter: brightness(1.2);
-    }
-    .cont{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 12px;
-        line-height: 1;
-        margin-bottom: 0px;
+    #menu, .cont, .actv, .wm1, .KRgit, .model{
+        content-visibility: hidden;
     }
     .part1{
         background-color: #FFF;
@@ -808,7 +782,8 @@ footer{
         font-size: 25px;
     }
     .list{
-        padding-top: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
         text-decoration: none;
         list-style: none;
         align-items: center;
@@ -817,36 +792,27 @@ footer{
     .abt{
         margin-top: -15px;
     }
-    .actv{
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
-        list-style: none;
-        padding-bottom: 50px;
-    }
-    .limg-img{
-        width: 90px;
-    }
     .para{
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
         font-size: 15px;
     }
     .part2{
         background: url(../imgs/banner-2.jpg) center no-repeat;
+        background-size: cover;
         border-bottom: 10px solid #AA28AC;
         width: 100%;
-        min-height: 570px;
+        height: 1420px;
     }
     .pla{
-        padding-top: 70px;
-        margin-left: -18px;
+        padding-top: 10px;
+        margin-left: 0px;
     }
     .box__plan{
         display: flex;
         flex-direction: column;
         background-color: #FFF;
         border-bottom: 5px solid #AA28AC;
+        margin: 0px 80px 10px;
         height: 210px;
         width: 180px;
     }
@@ -906,9 +872,10 @@ footer{
         display: block;
         width: 140px;
         line-height: 45px;
-        margin-right: -2px;
-        margin-top: -25px;
+        margin-right: 123px;
+        margin-top: -34px;
         transition: all .2s linear;
+        margin-bottom: 10px;
     }
     .btn15:hover{
         transition: all .2s linear;
@@ -924,7 +891,7 @@ footer{
         height: 100%;
     }
     .h2p3{
-        padding-top: 60px;
+        padding-top: 10px;
         color: #AA26AC; 
         font-size: 40px; 
         font-style: italic;
@@ -935,10 +902,8 @@ footer{
     }
     .mr{
         font-size: 20px;
-    }
-    .wm1{
-        margin-top: -240px;
-        width: 330px;
+        margin-left: 20px;
+        margin-bottom: 10px;
     }
     .part4{
         background: url(../imgs/banner-3.png) center no-repeat;
@@ -965,27 +930,29 @@ footer{
         margin-top: -60px;
     }
     .saaa{
-        padding-top: 165px;
+        padding-top: 0px;
+        margin-top: 70px;
     }
     .wdwo{
-        padding-top: 120px;
+        padding-top: 0px;
     }
     .cnf{
-        padding-top: 83px;
-        font-size: 22px;
+        padding-top: 40px;
+        font-size: 17px;
+        margin-left: 20px;
     }
     .evnt{
-        font-size: 17px;
+        font-size: 15px;
     }
     .pd{
-        padding-top: 105px;
+        padding-top: 70px;
     }
     .h2p4{
         color: #FE26FE; 
-        font-size: 33px; 
+        font-size: 40px; 
         font-style: italic; 
         margin-left: 163px;
-        padding-top: 15px;
+        padding-top: 0px;
     }
     .part5{
         background-color: #F5F5F5;
@@ -1024,14 +991,19 @@ footer{
     }
     .has-feedback{
         display: flex;
-        width: 770px;
+        width: 60px;
+        margin-left: -17px;
+        padding-bottom: 30px;
     }
     .chespirito{
-        width: webkit-fill-available;
+        width: 150px;
+        margin-left: 110px;
     }
     .pp6{
-        margin-left: 90px;
+        margin-left: 0px;
         font-size: 15px;
+        width: 370px;
+        padding-top: 0px;
     }
     footer{
         background: url(../imgs/ftr.jpg) center no-repeat;
@@ -1041,13 +1013,16 @@ footer{
         height: 282px;
     }
     .contc{
-        padding-top: 50px;
-        margin-left: 17px;
-        margin-bottom: 30px;
-        font-size: 11px;
+        padding-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .wpp{
+        margin-bottom: 10px;
     }
     .loc{
-        margin-left: 32px;
+        margin-left: 15px;
         margin-bottom: 30px;
         font-size: 12px;
     }
@@ -1056,15 +1031,12 @@ footer{
     }
     .socials-end{
         margin-top: -40px;
-    }
-    .model{
-        position: absolute;
-        margin-top: -88px;
-        width: -webkit-fill-available;
+        padding-left: 280px;
     }
     .line-end{
-        width: 710px;
-        margin-left: 300px;
+        visibility: hidden;
+        width: 0px;
+        margin-left: 0px;
     }
     .footer2{
         width: 100%;
@@ -1074,11 +1046,13 @@ footer{
         align-items: center;
         justify-content: flex-end;
     }
-    .KRgit{
-        content-visibility: hidden;
+    .lavie{
+        width: 10px;
     }
     .kryzalis{
-        width: 830px;
+        margin-right: 107px;
+        margin-top: -40px;
+        width: 300px;
     }
     .kryzaimg{
         padding-left: 10px;
