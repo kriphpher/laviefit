@@ -1,0 +1,38 @@
+Kryzalis Assets
+V. 1.5
+
+ - Kryzalis Styles 1.2
+ - Kryzalis Scripts 1.2
+
+ - Bootstrap 3.3.0
+ - Lightbox 2.7.1
+ - Jquery 1.11.1
+
+ - jQuery Mask Plugin v1.14.13
+
+Changelog
+
+v1.5
+-----------------------------------------
+várias otimizações
+
+v1.4
+-----------------------------------------
+removido cycle e adicionado o owl carousel
+adicionada imagem da segunda versão de banner
+
+v1.3
+-----------------------------------------
+removido matchheight e adicionado flex
+
+-----------------------------------------
+v1.2
+- Adicionado jquery-match-height 0.7.2 by @liabru
+
+-----------------------------------------
+v1.1
+- Atualizações de CSS, Javascript e fontes
+
+-----------------------------------------
+v1.0
+- Aqui começa um trabalho feito de coração!
