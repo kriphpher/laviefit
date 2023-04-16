@@ -28,7 +28,6 @@ a img:hover{
     transform: scale(1.1);
     filter: brightness(1.1);
 }
-/* html config */
 header{
     padding-top: 27px;
     position: absolute;
@@ -36,7 +35,7 @@ header{
     z-index: 2;
 }
 .header{
-    background: url(../imgs/banner-1.jpg) center no-repeat;
+    background: url(../imgs/content/banner-1.jpg) center no-repeat;
     position: inherit;
     width: 100%;
     height: 774px;
@@ -108,13 +107,16 @@ header{
     font-size: 20px;
 }
 .part2{
-    background: url(../imgs/banner-2.jpg) center no-repeat;
+    background: url(../imgs/content/banner-2.jpg) center no-repeat;
     border-bottom: 10px solid #AA28AC;
     width: 100%;
     min-height: 570px;
 }
+.pla-txt{
+    padding: 30px 0 0 0;
+}
 .pla{
-    padding-top: 70px;
+    padding: 20px 0 0 0;
 }
 .box__plan{
     display: flex;
@@ -189,7 +191,7 @@ strong{
     padding-top: 10px;
 }
 .part3{
-    background: url(../imgs/back-1.jpg) center no-repeat;
+    background: url(../imgs/content/back-1.jpg) center no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -210,7 +212,7 @@ strong{
     margin-top: -240px;
 }
 .part4{
-    background: url(../imgs/banner-3.png) center no-repeat;
+    background: url(../imgs/content/banner-3.png) center no-repeat;
     width: 100%;
     min-height: 574px;
 }
@@ -261,7 +263,7 @@ strong{
     font-size: 42px; 
     font-style: italic;
 }
-.gale{
+.gale {
     display: flex;
     justify-content: space-between;
 }
@@ -288,7 +290,7 @@ strong{
     font-style: italic;
 }
 footer{
-    background: url(../imgs/ftr.jpg) center no-repeat;
+    background: url(../imgs/content/ftr.jpg) center no-repeat;
     border-top: 10px solid #AA28AC;
     width: 100%;
     color: #fff;
@@ -354,7 +356,7 @@ footer{
         font-family: 'ABeeZee';
     }
     .pg-home{
-        max-width: 1024px;
+        max-width: 1920px;
         margin-right: auto;
         margin-left: auto;
         font-family: 'ABeeZee';
@@ -376,8 +378,6 @@ footer{
         transform: scale(1.1);
         filter: brightness(1.1);
     }
-    /* html config */
-
     header{
         padding-top: 27px;
         position: absolute;
@@ -385,7 +385,7 @@ footer{
         z-index: 2;
     }
     .header{
-        background: url(../imgs/banner-1.jpg) center no-repeat;
+        background: url(../imgs/content/banner-1.jpg) center no-repeat;
         position: inherit;
         width: 100%;
         height: 604px;
@@ -461,7 +461,7 @@ footer{
         font-size: 15px;
     }
     .part2{
-        background: url(../imgs/banner-2.jpg) center no-repeat;
+        background: url(../imgs/content/banner-2.jpg) center no-repeat;
         border-bottom: 10px solid #AA28AC;
         width: 100%;
         min-height: 570px;
@@ -547,7 +547,7 @@ footer{
         padding-top: 10px;
     }
     .part3{
-        background: url(../imgs/back-1.jpg) center no-repeat;
+        background: url(../imgs/content/back-1.jpg) center no-repeat;
         width: 100%;
         height: 100%;
     }
@@ -569,7 +569,7 @@ footer{
         width: 330px;
     }
     .part4{
-        background: url(../imgs/banner-3.png) center no-repeat;
+        background: url(../imgs/content/banner-3.png) center no-repeat;
         width: 100%;
         min-height: 574px;
     }
@@ -662,7 +662,7 @@ footer{
         font-size: 15px;
     }
     footer{
-        background: url(../imgs/ftr.jpg) center no-repeat;
+        background: url(../imgs/content/ftr.jpg) center no-repeat;
         border-top: 10px solid #AA28AC;
         width: 100%;
         color: #fff;
@@ -719,14 +719,14 @@ footer{
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     *{
         padding: 0;
         margin: 0;
         font-family: 'ABeeZee';
     }
     .pg-home{
-        max-width: 991px;
+        max-width: 1920px;
         margin-right: auto;
         margin-left: auto;
         font-family: 'ABeeZee';
@@ -748,30 +748,54 @@ footer{
         transform: scale(1.1);
         filter: brightness(1.1);
     }
-    /* html config */
-
     header{
         padding-top: 27px;
         position: absolute;
         width: 100%;
         z-index: 2;
     }
-    .logo{
-        margin-left: 40px;
-    }
     .header{
-        background: url(../imgs/banner-mobile.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 184px;
+        background: url(../imgs/content/banner-1.jpg) center no-repeat;
+        position: inherit;
+        width: 100%;
+        height: 604px;
     }
     .line1{
         border-top: 1px solid #000;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    #menu, .cont, .actv, .wm1, .KRgit, .model{
-        content-visibility: hidden;
+    #menu{
+        font-size: 18px;
+        padding-top: 20px;
+        text-decoration: none;
+        text-align: end;
+    }
+    .nav__links{
+        list-style: none;
+    }
+    .nav__links li{
+        display: inline-block;
+        padding: 0px 10px;
+    }
+    .nav__links li a{
+        color: #000;
+        transition: all 0.2s linear;
+        text-decoration: underline #FE26FE;
+    }
+    .nav__links li a:hover{
+        color: #FE26FE;
+        transition: all 0.2s linear;
+        text-decoration: underline #FE26FE;
+        filter: brightness(1.2);
+    }
+    .cont{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 12px;
+        line-height: 1;
+        margin-bottom: 0px;
     }
     .part1{
         background-color: #FFF;
@@ -782,8 +806,7 @@ footer{
         font-size: 25px;
     }
     .list{
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 50px;
         text-decoration: none;
         list-style: none;
         align-items: center;
@@ -792,27 +815,36 @@ footer{
     .abt{
         margin-top: -15px;
     }
+    .actv{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        list-style: none;
+        padding-bottom: 50px;
+    }
+    .limg-img{
+        width: 90px;
+    }
     .para{
-        padding-bottom: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         font-size: 15px;
     }
     .part2{
-        background: url(../imgs/banner-2.jpg) center no-repeat;
-        background-size: cover;
+        background: url(../imgs/content/banner-2.jpg) center no-repeat;
         border-bottom: 10px solid #AA28AC;
         width: 100%;
-        height: 1420px;
+        min-height: 570px;
     }
     .pla{
-        padding-top: 10px;
-        margin-left: 0px;
+        padding-top: 70px;
+        margin-left: -18px;
     }
     .box__plan{
         display: flex;
         flex-direction: column;
         background-color: #FFF;
         border-bottom: 5px solid #AA28AC;
-        margin: 0px 80px 10px;
         height: 210px;
         width: 180px;
     }
@@ -872,10 +904,9 @@ footer{
         display: block;
         width: 140px;
         line-height: 45px;
-        margin-right: 123px;
-        margin-top: -34px;
+        margin-right: -2px;
+        margin-top: -25px;
         transition: all .2s linear;
-        margin-bottom: 10px;
     }
     .btn15:hover{
         transition: all .2s linear;
@@ -886,7 +917,344 @@ footer{
         padding-top: 10px;
     }
     .part3{
-        background: url(../imgs/back-1.jpg) center no-repeat;
+        background: url(../imgs/content/back-1.jpg) center no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+    .h2p3{
+        padding-top: 60px;
+        color: #AA26AC; 
+        font-size: 40px; 
+        font-style: italic;
+    }
+    .atnd{
+        margin: 30px 0px 30px;
+        font-size: 20px;
+    }
+    .mr{
+        font-size: 20px;
+    }
+    .wm1{
+        margin-top: -240px;
+        width: 330px;
+    }
+    .part4{
+        background: url(../imgs/content/banner-3.png) center no-repeat;
+        width: 100%;
+        min-height: 574px;
+    }
+    .btn1{
+        color: #fff;
+        background: #AA27AC;
+        padding: 20px 40px;
+        cursor: pointer;
+        margin: 10px;
+        transition: all .2s linear;
+    }
+    .btn1:hover{
+        transform: scale(1.1);
+        filter: brightness(1.2);
+    }
+    .evnt, .cnf{
+        color: #fff;
+    }
+    .evnt{
+        margin-bottom: 70px;
+        margin-top: -60px;
+    }
+    .saaa{
+        padding-top: 165px;
+    }
+    .wdwo{
+        padding-top: 120px;
+    }
+    .cnf{
+        padding-top: 83px;
+        font-size: 22px;
+    }
+    .evnt{
+        font-size: 17px;
+    }
+    .pd{
+        padding-top: 105px;
+    }
+    .h2p4{
+        color: #FE26FE; 
+        font-size: 33px; 
+        font-style: italic; 
+        margin-left: 163px;
+        padding-top: 15px;
+    }
+    .part5{
+        background-color: #F5F5F5;
+        min-height: 510px;
+    }
+    .h2p5{
+        color: #AA26AC; 
+        font-size: 42px; 
+        font-style: italic;
+    }
+    .gale{
+        display: flex;
+        justify-content: space-between;
+    }
+    .carjs{
+        transition: all .2s linear;
+    }
+    .carjs:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+    }
+    .part6{
+        min-height: 500px;
+    }
+    .owl-carousel, .owl-item{
+        width: 1200px;
+    }
+    .carousel, .pp6{
+        padding-top: 30px;
+    }
+    .h2p6{
+        padding-top: 30px;
+        color: #AA26AC;
+        font-size: 30px; 
+        font-style: italic;
+    }
+    .has-feedback{
+        display: flex;
+        width: 770px;
+    }
+    .chespirito{
+        width: webkit-fill-available;
+    }
+    .pp6{
+        margin-left: 90px;
+        font-size: 15px;
+    }
+    footer{
+        background: url(../imgs/content/ftr.jpg) center no-repeat;
+        border-top: 10px solid #AA28AC;
+        width: 100%;
+        color: #fff;
+        height: 282px;
+    }
+    .contc{
+        padding-top: 50px;
+        margin-left: 17px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    .loc{
+        margin-left: 32px;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    .socials{
+        padding: 5px 5px;
+    }
+    .socials-end{
+        margin-top: -40px;
+    }
+    .model{
+        position: absolute;
+        margin-top: -88px;
+        width: -webkit-fill-available;
+    }
+    .line-end{
+        width: 710px;
+        margin-left: 300px;
+    }
+    .footer2{
+        width: 100%;
+        color: #777777;
+        margin-top: -100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .KRgit{
+        content-visibility: hidden;
+    }
+    .kryzalis{
+        width: 830px;
+    }
+    .kryzaimg{
+        padding-left: 10px;
+    }
+    .btnwhats{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 9999;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'ABeeZee';
+    }
+    .pg-home{
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'ABeeZee';
+    }
+    ::selection{
+        background: #AA27AC;
+    }
+    ::-moz-selection{
+        background: #AA27AC;
+    }
+    ::marker{
+        color: #AA27AC;
+    }
+    a img{
+        transition: all .2s linear;
+    }
+    a img:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+        filter: brightness(1.1);
+    }
+    /* html config */
+
+    header{
+        padding-top: 27px;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .header{
+        background: url(../imgs/content/banner-mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 184px;
+    }
+    .line1{
+        border-top: 1px solid #000;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #menu, .cont, .actv, .wm1, .KRgit, .model{
+        content-visibility: hidden;
+    }
+    .part1{
+        background-color: #FFF;
+    }
+    .h2p1{
+        color: #AA26AC; 
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .list{
+        padding-top: 0;
+        padding-bottom: 0;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        font-size: 15px;
+    }
+    .abt{
+        margin-top: -15px;
+    }
+    .para{
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .part2{
+        background: url(../imgs/content/banner-2.jpg) center no-repeat;
+        background-size: cover;
+        border-bottom: 10px solid #AA28AC;
+        width: 100%;
+        height: 1420px;
+    }
+    .pla{
+        padding-top: 10px;
+        margin-left: 0px;
+    }
+    .box__plan{
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        border-bottom: 5px solid #AA28AC;
+        margin: 5px 40px 5px;
+        height: 210px;
+        width: 180px;
+    }
+    .line15{
+        border-top: 1px solid #000;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        width: 140px;
+    }
+    .numbers{
+        padding-top: 20px;
+    }
+    .box__plan p{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 25px;
+        margin-bottom: 0px;
+        line-height: 1;
+    }
+    .h2p2{
+        color: #AA26AC; 
+        font-size: 42px; 
+        font-style: italic;
+        margin-left: 10px;
+    }
+    .pp2{
+        margin-left: 10px;
+    }
+    .h4p2{
+        font-size: 28px;
+        font-style: italic;
+        padding-top: 20px;
+        margin-bottom: -10px;
+    }
+    strong{
+        font-size: 42px;
+        font-weight: bolder;
+    }
+    .prc{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 25px;
+        margin-top: 0px;
+        font-weight: bolder;
+        position: relative;
+        color: #AA27AC;
+    }
+    .zero{
+        position: absolute;
+        top: 0px;
+        font-size: 30px;
+    }
+    .btn15{
+        color: #fff;
+        background-color: #AA28AC;
+        display: block;
+        width: 140px;
+        line-height: 45px;
+        margin: -35px 0px 10px 60px;
+        transition: all .2s linear;
+    }
+    .btn15:hover{
+        transition: all .2s linear;
+        transform: scale(1.1);
+        filter: brightness(1.2);
+    }
+    .buyn{
+        padding-top: 10px;
+    }
+    .part3{
+        background: url(../imgs/content/back-1.jpg) center no-repeat;
         width: 100%;
         height: 100%;
     }
@@ -906,7 +1274,7 @@ footer{
         margin-bottom: 10px;
     }
     .part4{
-        background: url(../imgs/banner-3.png) center no-repeat;
+        background: url(../imgs/content/banner-3.png) center no-repeat;
         width: 100%;
         min-height: 574px;
     }
@@ -948,11 +1316,10 @@ footer{
         padding-top: 70px;
     }
     .h2p4{
-        color: #FE26FE; 
-        font-size: 40px; 
-        font-style: italic; 
-        margin-left: 163px;
-        padding-top: 0px;
+        color: #FE26FE;
+        font-size: 40px;
+        font-style: italic;
+        margin-left: 70px;
     }
     .part5{
         background-color: #F5F5F5;
@@ -997,16 +1364,16 @@ footer{
     }
     .chespirito{
         width: 150px;
-        margin-left: 110px;
+        margin-left: 50px;
     }
     .pp6{
         margin-left: 0px;
         font-size: 15px;
-        width: 370px;
+        width: 280px;
         padding-top: 0px;
     }
     footer{
-        background: url(../imgs/ftr.jpg) center no-repeat;
+        background: url(../imgs/content/ftr.jpg) center no-repeat;
         border-top: 10px solid #AA28AC;
         width: 100%;
         color: #fff;
@@ -1030,8 +1397,9 @@ footer{
         padding: 5px 5px;
     }
     .socials-end{
-        margin-top: -40px;
-        padding-left: 280px;
+        content-visibility: hidden;
+        margin-top: -20px;
+        padding-left: 180px;
     }
     .line-end{
         visibility: hidden;
@@ -1050,7 +1418,7 @@ footer{
         width: 10px;
     }
     .kryzalis{
-        margin-right: 107px;
+        margin-right: 0px;
         margin-top: -40px;
         width: 300px;
     }
